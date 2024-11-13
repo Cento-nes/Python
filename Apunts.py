@@ -74,10 +74,155 @@
 #else:
 #    print(f"no ports mirar la peli ja que tens {edat} i nesesites 20 ")
 
-
-
-
-
-
-
 #-----------------------------------------------------------
+
+#Bucles 
+
+
+
+#----------------------------------------------------------------
+#----------------------------------------------------------------
+#----------------------------------------------------------------
+
+
+#UF2
+
+#Dijous 14 - Classes i Objectes
+
+#    Classes
+#        Una classe és una plantilla per crear objectes. Defineix els atributs (variables) i mètodes (funcions) que aquests objectes tindran.
+#        Sintaxi: Es defineix amb la paraula clau class i comença amb una lletra majúscula per convenció.
+#        Exemple:
+
+#    class Persona:
+ #       def __init__(self, nom, edat):
+  #          self.nom = nom
+   #         self.edat = edat
+
+#Objectes
+
+ #   Un objecte és una instància d'una classe que conté dades pròpies i accedeix als mètodes de la seva classe.
+  #  Exemple:
+
+   # persona1 = Persona("Maria", 25)
+
+#Atributs i Mètodes
+
+ #   Atributs: Són les propietats de la classe (com nom i edat).
+  #  Mètodes: Són funcions dins de la classe (com saludar).
+   # Exemple:
+
+    #class Persona:
+     #   def __init__(self, nom, edat):
+      #      self.nom = nom
+       #     self.edat = edat
+        #
+         #def saludar(self):
+         #   return f"Hola, sóc {self.nom}"
+
+#Encapsulació
+
+ #   Els atributs privats es defineixen amb _ o __ al començament, indicant que no haurien de ser accedits fora de la classe.
+  #  Exemple:
+
+    #    class Persona:
+     #       def __init__(self, nom, edat):
+      #          self._edat = edat
+
+#Divendres 15 - Subprogrames i Modularització
+
+#    Funcions
+ #       Una funció és un bloc de codi reutilitzable que realitza una tasca específica.
+  #      Es defineix amb def, un nom, paràmetres (opcions d'entrada) i pot retornar un valor.
+   #     Exemple:
+
+    #def sumar(a, b):
+#        return a + b
+
+#Paràmetres i Paràmetres per Defecte
+
+ #   Els paràmetres per defecte són opcions establertes si no es passa un valor.
+  #  Exemple:
+
+   # def saludar(nom="Convidat"):
+    #    print(f"Hola, {nom}")
+
+#*args i **kwargs
+
+  #  *args: Permet passar una llista de paràmetres variables a una funció.
+   # **kwargs: Permet passar arguments amb nom.
+    #Exemple:
+
+    #def sumar(*args):
+     #   return sum(args)
+
+#Modularització i Disseny Descendent
+
+ #   Modularització: Dividir un problema gran en funcions més petites per facilitar el manteniment.
+  #  Disseny Descendent: Descompondre una tasca en subfuncions.
+   # Exemple:
+
+    #    def calcular_mitjana(notes):
+     #       return sum(notes) / len(notes)
+
+#Dilluns 18 - Disseny Descendent i Recursivitat
+
+ #   Disseny Descendent
+  #      És la pràctica de dividir un problema gran en subprogrames més petits.
+   #     Exemple:
+
+    #def calcular_total_compra(preus):
+     #   subtotal = sum(preus)
+      #  return calcular_iva(subtotal)
+
+    #def calcular_iva(subtotal):
+     #   return subtotal * 0.21
+
+#Recursivitat
+
+ #   Una funció recursiva és aquella que es crida a si mateixa amb diferents paràmetres.
+  #  Requereix una condició base per evitar bucles infinits.
+   # Exemple:
+
+    #    def factorial(n):
+     #       if n == 1:
+      #          return 1
+       #     else:
+        #        return n * factorial(n - 1)
+
+#Dimarts 19 - Gestió de Fitxers (UF3)
+
+ #   Obrir i Tancar Fitxers
+  #      Els fitxers es poden obrir amb open() i tancar amb close().
+   #     Modes comuns: 'r' (lectura), 'w' (escriptura), 'a' (afegir).
+    #    Exemple:
+
+    #fitxer = open("dades.txt", "r")
+    #contingut = fitxer.read()
+    #fitxer.close()
+
+#Llegir i Escriure Fitxers
+
+ #   Llegir: read(), readline() o readlines().
+  ##  Escriure: write() per escriure al fitxer o writelines() per llistes.
+    #Exemple d’escriptura:
+
+    #fitxer = open("nou_fitxer.txt", "w")
+    #fitxer.write("Hola món!")
+    #fitxer.close()
+
+#Gestió amb el Context Manager (with)
+
+ #   El with tanca automàticament el fitxer.
+  #  Exemple:
+
+   #     with open("dades.txt", "r") as fitxer:
+    #        contingut = fitxer.read()
+
+#Dimecres 20 - Repàs Final UF2 i UF3
+
+#Aquest dia pots repassar els conceptes principals:
+
+ #   UF2: classes, objectes, mètodes, funcions, modularització, disseny descendent i recursivitat.
+  #  UF3: obertura de fitxers, lectura, escriptura, modes i el with.
+
