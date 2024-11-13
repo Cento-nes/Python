@@ -78,14 +78,50 @@
 
 #Bucles 
 
+#Bucle while
 
+#Repeteix les instruccions mentre una condició sigui True.
 
-#----------------------------------------------------------------
-#----------------------------------------------------------------
-#----------------------------------------------------------------
+#while condició:
+ #   instruccions
 
+#Exemple:
 
-#UF2
+#i = 0
+#while i < 5:
+ #   print(i)
+  #  i += 1
+
+#Bucle for
+
+#Itera sobre una seqüència (com range(), llistes, etc.).
+
+#for variable in seqüència:
+ #   instruccions
+
+#Exemple:
+
+#for i in range(5):
+ #   print(i)
+
+#Comandes especials en bucles:
+
+ #   break: Interromp el bucle.
+  #  continue: Salta a la següent iteració del bucle.
+
+#Exemple break:
+
+#for i in range(10):
+ #   if i == 5:
+  #      break
+   # print(i)
+
+#Exemple continue:
+
+#for i in range(10):
+ ##   if i == 5:
+   #     continue
+    #print(i)
 
 #Dijous 14 - Classes i Objectes
 
