@@ -1,43 +1,51 @@
 #Aqui trobaras exersisi de la UF2
 
-#classes i objectes 
+#Exercici 1: Crear una Classe Persona
 
-#    Classe Cotxe: Crea una classe Cotxe amb els atributs marca, model i any. Defineix un mètode per mostrar aquesta informació.
+#Crea una classe anomenada Persona amb els atributs nom, edat i un mètode mostrar_info() que mostri el nom i l'edat de la persona.
+#Exercici 2: Crear una Subclasse Cotxe
 
-
-
-#    Classe Rectangle: Defineix una classe Rectangle amb base i alçada, i un mètode per calcular l'àrea.
-
-
-
-#    Classe Llibre: Crea una classe Llibre amb atributs títol, autor i pàgines. Inclou un mètode que permeti obtenir el títol i l'autor en una sola cadena.
+#Defineix una classe Cotxe que hereti de la classe Persona. La classe Cotxe ha de tenir els atributs marca i model i un mètode mostrar_info() que mostri tota la informació de la persona i del cotxe.
 
 
 
-#    Classe Persona amb Edat: Crea una classe Persona que tingui nom i edat. Afegeix un mètode que indiqui si la persona és més gran.
+#Divendres 15: Exercicis de Funcions i Modularització (UF2)
+
+#Exercici 3: Funció per Calcular la Mitjana
+
+#Crea una funció que accepti una llista de números i retorni la seva mitjana. Fes que la funció validi que la llista no estigui buida.
 
 
 
-#    Classe Punt: Crea una classe Punt amb atributs x i y. Afegeix un mètode per calcular la distància entre dos punts.
+#Exercici 4: Funció de Saluda
+
+#Crea una funció anomenada saludar() que agafi un paràmetre nom i imprimeixi "Hola, {nom}!". Si no es passa el paràmetre, utilitza un valor per defecte.
 
 
 
-#Tema 2: Mètodes i Encapsulament
+#Exercici 5: Funció per Comptar Paraules
 
-#    Encapsulament de Persona: Defineix la classe Persona amb un atribut privat nom. Afegeix mètodes per accedir i modificar el nom.
-
-
-
-#    Mètode per Incrementar Edat: A la classe Persona, crea un mètode aniversari que augmenti l'edat en 1 any.
+#Crea una funció anomenada comptar_paraules() que accepti una cadena de text i retorni el nombre de paraules.
 
 
 
-#    Encapsulament de Saldo: Crea una classe CompteBancària amb saldo privat. Afegeix mètodes per ingressar i retirar diners.
+#Dissabte 16: Exercicis de Pràctica UF2
+#Exercici 13: Creació de la Classe Cotxe i Subclasse
+
+#Crea una classe Cotxe amb atributs com marca, model, i un mètode per mostrar la informació. Crea una subclasse CotxeElèctric amb un mètode per mostrar si el cotxe està carregat o no.
+#Exercici 14: Funció de Promig
+
+#Crea una funció que accepti una llista de notes i retorni el promig, la nota màxima i la mínima.
 
 
 
-#    Classe Producte amb Preu: Defineix una classe Producte amb nom i preu (privat). Afegeix mètodes per accedir i modificar el preu.
+#Dilluns 18: Exercicis de Disseny Descendent i Recursivitat (UF2)
+#Exercici 6: Factorial Recursiu
+
+#Implementa una funció recursiva que calculi el factorial d'un número donat. La funció ha de tenir una condició base per aturar la recursivitat.
 
 
 
-#    Mètode per Mostrar Dades: En una classe Alumne amb nom i nota privats, afegeix un mètode per mostrar les dades si la nota és més gran que 5.
+#Exercici 7: Descomposició de Problema
+
+#Crea un programa per calcular el cost d'una compra. Descompon el programa en dues funcions: una que calcule el subtotal (suma de preus) i una altra que calcule l'IVA (21% del subtotal).
