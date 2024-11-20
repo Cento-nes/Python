@@ -39,12 +39,12 @@
 
 #Crea una funció que accepti una llista de números i retorni la seva mitjana. Fes que la funció validi que la llista no estigui buida.
 
-def calcular_mitjana(numeros):
-    if not numeros:
-        return "la llista esta buida"
-    return sum(numeros) / len(numeros)
+#def calcular_mitjana(numeros):
+ #   if not numeros:
+  #      return "la llista esta buida"
+   # return sum(numeros) / len(numeros)
 
-print(calcular_mitjana([10, 20, 30, 40]))
+    #print(calcular_mitjana([10, 20, 30, 40]))
 
 #Exercici 4: Funció de Saluda
 
