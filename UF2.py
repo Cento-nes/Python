@@ -1,20 +1,37 @@
 #Aqui trobaras exersisi de la UF2
 
 #Exercici 1: Crear una Classe Persona
-
 #Crea una classe anomenada Persona amb els atributs nom, edat i un mètode mostrar_info() que mostri el nom i l'edat de la persona.
-#Exercici 2: Crear una Subclasse Cotxe
 
+
+#class Persona:
+  #  def __init__(self, nom, edat):
+   #     self.nom = nom
+    #    self.edat = edat
+
+    #def mostrar_info(self):
+     #   return f"Hola, sóc {self.nom} i tinc {self.edat} anys."
+
+# Exemple d'ús:
+#persona1 = Persona("Cento", 20)
+#print(persona1.mostrar_info())
+
+
+#Exercici 2: Crear una Subclasse Cotxe
 #Defineix una classe Cotxe que hereti de la classe Persona. La classe Cotxe ha de tenir els atributs marca i model i un mètode mostrar_info() que mostri tota la informació de la persona i del cotxe.
 
-class Persona:
-    def __init__(self, nom, edat):
-        self.nom = nom
-        self.edat = edat
+#class Cotxe(Persona):
+ #   def __init__(self, nom, edat, marca, model):
+  #      super().__init__(nom, edat)
+   #     self.marca = marca
+    #    self.model = model
 
-persona1 = Persona("Cento", 20)
-def mostrar_info(self):
-    return f"hola soc {self.nom} i tinc {self.edat}"
+    #def mostrar_info(self):
+     #   return f"{super().mostrar_info()} Conduesc un {self.marca} {self.model}."
+
+# Exemple d'ús:
+    #cotxe1 = Cotxe("Cento", 20, "Tesla", "Model S")
+     #print(cotxe1.mostrar_info())
 
 #Divendres 15: Exercicis de Funcions i Modularització (UF2)
 
@@ -22,7 +39,12 @@ def mostrar_info(self):
 
 #Crea una funció que accepti una llista de números i retorni la seva mitjana. Fes que la funció validi que la llista no estigui buida.
 
+def calcular_mitjana(numeros):
+    if not numeros:
+        return "la llista esta buida"
+    return sum(numeros) / len(numeros)
 
+print(calcular_mitjana([10, 20, 30, 40]))
 
 #Exercici 4: Funció de Saluda
 
