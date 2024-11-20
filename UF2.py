@@ -7,7 +7,14 @@
 
 #Defineix una classe Cotxe que hereti de la classe Persona. La classe Cotxe ha de tenir els atributs marca i model i un mètode mostrar_info() que mostri tota la informació de la persona i del cotxe.
 
+class Persona:
+    def __init__(self, nom, edat):
+        self.nom = nom
+        self.edat = edat
 
+persona1 = Persona("Cento", 20)
+def mostrar_info(self):
+    return f"hola soc {self.nom} i tinc {self.edat}"
 
 #Divendres 15: Exercicis de Funcions i Modularització (UF2)
 
